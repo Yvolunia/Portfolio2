@@ -13,6 +13,7 @@
 	width: 100%;
 	height: 1200px;
 	background: url(../Images/fresh_snow_@2X.png);
+
 }
 
 /**Font Style for Body Text**/
@@ -25,7 +26,7 @@ body {
 
 }
 
-/**Header Dimension and Style**/
+/**Header Dimensions and Style*s*/
 
 header {
 	padding: 20px;
@@ -42,6 +43,9 @@ header {
 	border-color: #cccccc;
 	float: left;
 }
+
+
+/**Body Dimensions and Styles**/
 
 h2 {
 	margin-left: 40px;
@@ -70,13 +74,17 @@ h5 {
     height: 900px;
 }
 
+/**Contact Box Style**/
+
 .portfolio_box {
 	margin-top: 50px;
 	background: #ffffff;
 	width: 650px;
-	height: 700px;
+	height: 675px;
 	float: left;
 	position: relative;
+	border-style: solid;
+	border-color: #dddddd;
 }
 
 #about {
@@ -130,6 +138,8 @@ h5 {
 	line-height: 55px;
 	text-align: center;
 }
+ 
+/**Connect Box Style**/
 
 .connect_box { 
 	background-color: #ffffff;
@@ -139,6 +149,8 @@ h5 {
 	height: 150px;
 	padding: 10;
 	float: left;
+	border-style: solid;
+	border-color: #dddddd;
 }
 
 #connect {
@@ -154,6 +166,8 @@ h5 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+
+/**Footer Style**/
 
 footer {
 	padding: 30px;

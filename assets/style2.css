@@ -24,7 +24,7 @@ body {
 
 }
 
-/**Header Dimension and Style**/
+/**Header Dimensions and Style*s*/
 
 header {
 	padding: 20px;
@@ -41,6 +41,8 @@ header {
 	border-color: #cccccc;
 	float: left;
 }
+
+/**Body Dimensions and Styles**/
 
 h2 {
 	margin-left: 40px;
@@ -65,11 +67,15 @@ h5 {
     height: 900px;
 }
 
+/**Main Content Styles**/
+
 .portfolio_box {
 	margin-top: 50px;
 	background: #ffffff;
 	width: 650px;
-	height: 600px;
+	height: 650px;
+	border-style: solid;
+	border-color: #dddddd;
 	float: left;
 	position: relative;
 }
@@ -98,6 +104,16 @@ h5 {
 	padding: 35px;
 }
 
+h3 {
+	color: #4aaaa5;
+}
+
+ul li:before {
+  content: '*';
+}
+
+/**Connect Box Styles**/
+
 .connect_box { 
 	background-color: #ffffff;
 	margin-left: 20px;
@@ -105,6 +121,8 @@ h5 {
 	width: 270px;
 	height: 150px;
 	padding: 10;
+	border-style: solid;
+	border-color: #dddddd;
 	float: left;
 }
 
@@ -121,6 +139,8 @@ h5 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
+
+/**Footer Styles**/
 
 footer {
 	padding: 30px;
