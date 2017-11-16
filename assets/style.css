@@ -23,7 +23,7 @@ body {
 
 }
 
-/**Header Dimension and Style**/
+/**Header Dimensions and Style**/
 
 header {
 	padding: 20px;
@@ -40,6 +40,8 @@ header {
 	border-color: #cccccc;
 	float: left;
 }
+
+/**Hody Dimensions and Style**/
 
 h2 {
 	margin-left: 40px;
@@ -64,10 +66,15 @@ h5 {
     height: 900px;
 }
 
+
+/**Portfolio Box Style**/
+
 .portfolio_box {
 	background: #ffffff;
 	width: 650px;
 	height: 900px;
+	border-style: solid;
+	border-color: #dddddd;
 	float: left;
 	position: relative;
 }
@@ -181,6 +188,7 @@ h5 {
 	top: 200px;
 }
 
+/**Connect Box Style**/
 
 .connect_box { 
 	background-color: #ffffff;
@@ -188,6 +196,8 @@ h5 {
 	margin-top: 10px;
 	width: 270px;
 	height: 150px;
+	border-style: solid;
+	border-color: #dddddd;
 	padding: 10;
 	float: left;
 }
@@ -205,15 +215,5 @@ h5 {
 	margin-top: 20px;
 	margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 <!-- END CSS -->
