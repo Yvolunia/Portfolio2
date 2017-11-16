@@ -53,6 +53,10 @@ h2 {
 	float: left;
 }
 
+h3 {
+	margin-left: 20px;
+}
+
 h5 {
 	color: #777777;
 	width: 50%;
@@ -86,17 +90,45 @@ h5 {
 	text-align: left;
 }
 
-#photo
-{
-	height:200px;
+#namefield {
+	width: 550px
 	padding: 20px;
-	margin-left: 50px;
-	margin-bottom: 20px;
-	float: left;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	background: url('image/transparent_img.png') repeat top left;
 }
 
-.text {
-	padding: 35px;
+#efield {
+	width: 550px
+	padding: 20px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	background: url('image/transparent_img.png') repeat top left;
+
+}
+
+#mfield {
+	padding: 100px;
+	margin: 20px;
+	border: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+	background: url('image/transparent_img.png') repeat top left;
+
+}
+
+#Submit {
+	margin-left: 20px;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 33%;
+	height: 50px;
+	line-height: 55px;
+	text-align: center;
 }
 
 .connect_box { 
@@ -138,5 +170,6 @@ footer {
 	color: #ffffff;
 }
 
+background: url('image/transparent_img.png') repeat top left;
 
 <!-- END CSS -->
