@@ -41,7 +41,7 @@ header {
 	float: left;
 }
 
-/**Hody Dimensions and Style**/
+/**Body Dimensions and Style**/
 
 h2 {
 	margin-left: 40px;
@@ -57,7 +57,7 @@ h5 {
 	color: #777777;
 	width: 50%;
 	line-height: 55px;
-	float: right;
+	float: left;
 }
 
 .box_wrapper {
